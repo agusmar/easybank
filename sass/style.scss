@@ -1,0 +1,56 @@
+
+:root {
+  --darkBlue: hsl(233, 26%, 24%);
+  --limeGreen: hsl(136, 65%, 51%);
+  --rightCyan: hsl(192, 70%, 91%);
+  --grayBlue: hsl(223, 8%, 62%);
+  --gray: hsl(220, 16%, 96%);
+  --lightGray: hsl(0, 0% 98%);
+  --white: hsl(0, 0%, 100%);
+  font-size: 12px;
+
+}
+
+
+body {
+  font-family: "Public Sans", sans-serif;
+  margin: 0;
+  color: var(--grayBlue);
+  width: 100%;
+}
+
+.body {
+  width: 350px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+// .navbar-desktop {
+//   display: none;
+// }
+
+.title {
+  font-size: 28px;
+  color: var(--darkBlue);
+}
+
+
+.hero {
+  text-align: center;
+
+}
+
+.button {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 1.5em;
+  color: var(--white);
+  font-size: 2em;
+  background-image: linear-gradient(to right, var(--limeGreen) 0%, var(--rightCyan) 100%);
+
+}
+
