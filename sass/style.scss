@@ -1,56 +1,54 @@
+//primay color
+$darkBlue: hsl(233, 26%, 24%);
+$limeGreen: hsl(136, 65%, 51%);
+$brightCyan: hsl(192, 70%, 51%);
 
-:root {
-  --darkBlue: hsl(233, 26%, 24%);
-  --limeGreen: hsl(136, 65%, 51%);
-  --rightCyan: hsl(192, 70%, 91%);
-  --grayBlue: hsl(223, 8%, 62%);
-  --gray: hsl(220, 16%, 96%);
-  --lightGray: hsl(0, 0% 98%);
-  --white: hsl(0, 0%, 100%);
-  font-size: 12px;
+//secundary colors
+$grayishBlue: hsl(233, 8%, 62%);
+$lightGrayishBlue: hsl(220, 16%, 96%);
+$veryLightGray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
 
-}
+//fonts
+$fontFamily: "Public Sans", sans-serif;
+
+/* Sizes */
+
+$s-3: 4px;
+$s-2: 8px;
+$s-1: 14px;
+$s0: 18px;
+$s1: 24px;
+$s2: 32px;
+$s3: 40px;
+$s4: 64px;
+
+/* Radius */
+
+// $radius-1: 6px;
+// $radius0: 10px;
+// $radius1: 14px;
 
 
-body {
-  font-family: "Public Sans", sans-serif;
-  margin: 0;
-  color: var(--grayBlue);
-  width: 100%;
-}
-
-.body {
-  width: 350px;
-}
-
-.header {
+html {
+  background-color: $veryLightGray;
+  font-family: $fontFamily;
+  font-size: $s0;
   display: flex;
-  justify-content: space-between;
-  padding: 30px;
+  width: 100%;
+  justify-content: center;
 }
-
-// .navbar-desktop {
-//   display: none;
-// }
-
-.title {
-  font-size: 28px;
-  color: var(--darkBlue);
-}
-
 
 .hero {
-  text-align: center;
-
-}
-
-.button {
-  padding: 1em 2em;
-  border: none;
-  border-radius: 1.5em;
-  color: var(--white);
-  font-size: 2em;
-  background-image: linear-gradient(to right, var(--limeGreen) 0%, var(--rightCyan) 100%);
+  .hero-image {
+    width: 50%;
+  }
+  .background-img {
+    background: url("../images/bg-intro-mobile.svg")  center bottom no-repeat;
+    width: 100%;
+    height: 300px;
+   
+  }
 
 }
 
